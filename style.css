@@ -10,6 +10,11 @@
 body {
     background-color: #FBF3F1;
 }
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
 
 /* SCROLL EFFECT */
 html {
@@ -159,7 +164,7 @@ html {
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), fixed url(media/fabric5.jpg);
     background-size: cover;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 91.8%);
+    
 }
 
 /* QUIENES SOMOS */
@@ -309,11 +314,11 @@ a {
 
 /* SERVICIOS */
 #servicios {
-    height: 150vh;
+
     width: 100vs;
     background-color: #3f485d;
     background-size: cover;
-    clip-path: polygon(0 20%, 100% 12.2%, 100% 80%, 0 88.8%);
+    
 }
 
 #servicios .container-servicios {
@@ -331,7 +336,6 @@ a {
     margin: 10px;
     text-align: center;
 }
-
 #servicios H2 {
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -339,14 +343,6 @@ a {
     text-align: center;
 }
 
-#servicios video {
-    z-index: 1000;
-    width: 350px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* INTEGRANTES */
 .container-integrantes {
@@ -428,7 +424,7 @@ a {
     width: 100vs;
     background-color: #3f485d;
     background-size: cover;
-    clip-path: polygon(0 20%, 100% 12.2%, 100% 80%, 0 88.8%);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -760,12 +756,6 @@ form .form-control {
         text-align: center;
     }
 
-    #servicios video {
-        margin-bottom: 10px;
-        height: 200px;
-        width: 300px;
-    }
-
     /* CLIENTES */
     .tittle-clientes {
         font-size: 30px;
@@ -936,7 +926,6 @@ form .form-control {
 
     /* SERVICIOS */
     #servicios {
-        height: 100vh;
         width: 100%;
         clip-path: none;
     }
@@ -966,13 +955,6 @@ form .form-control {
         margin: 5px;
         text-align: center;
     }
-
-    #servicios video {
-        margin-bottom: 10px;
-        height: 170px;
-        width: 270px;
-    }
-
     /* INTEGRANTES */
     .container-integrantes {
         height: 100vh;
