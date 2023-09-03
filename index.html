@@ -9,17 +9,22 @@
 
     <!-- Name and icon -->
     <title>Grupo SIDI | Soluciones Industriales De alto Impacto </title>
-    <link rel="icon" href="media/icono.ico">
+    <link rel="icon" href="media/Grupo SIDI - FINAL_Avatar positivo.jpg">
 
     <!-- Libraries CSS Files -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./Font Awesome/all.min.css">
 
-    <!-- Fonts -->
+    <!-- Fonts 
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;700&family=Saira:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -31,10 +36,10 @@
         class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
 
     <!-- Header -->
-    <header class="header">
+    <header id="inicio" class="header">
         <div class="header__container">
             <nav class="navbar">
-                <a class="logo">Grupo SIDI</a>
+                <a href="#inicio" class="logo">Grupo SIDI</a>
                 <button class="nav-toggle">
                   <i class="fa-solid fa-bars"></i>
                 </button>
@@ -46,7 +51,7 @@
                     <a href="#servicios" class="nav__menu-link nav-link nav__menu-link_active">SERVICIOS</a>
                   </li>
                   <li class="nav__menu-item">
-                    <a href="#integrantes" class="nav__menu-link nav-link nav__menu-link_active">INTEGRANTES</a>
+                    <a href="#integrantes" class="nav__menu-link nav-link nav__menu-link_active">PORTAFOLIO</a>
                   </li>
                   <li class="nav__menu-item">
                     <a href="#clientes" class="nav__menu-link nav-link nav__menu-link_active">CLIENTES</a>
@@ -58,28 +63,31 @@
               </nav>
         </div>
     </header>
-
-    <div class="headerimg">
-
+    
+  <!-- Section Urgenicas -->
+    <div class="headerimg"></div>
+    <div class="urgencias">
+        <div class="container">
+            <div class="urgencias-item">
+                <h3>Urgencias</h3>
+            </div>
+            <div class="urgencias-item">
+                <h3>Presupuestos</h3>
+            </div>
+            <div class="urgencias-item">
+                <h3>Contacto</h3>
+            </div>
+        
+        </div>
     </div>
-
     <!-- Section Quienes Somos -->
     <section id="quienes">
         <div class="container container-quienes ">
-            <h2>QUIENES<span class="color-acento"> SOMOS</span></h2>
-                <p >Nos exhibimos como una empresa con trayectoria siendo proveedores del estado uruguayo. <br>
-                    Brindamos nuestros servicios a proyectos de la Industria y nos caracterizamos por trabajar las 24
-                    horas del día para satisfacer las demandas específicas de nuestros clientes, sin interferir en el
-                    funcionamiento cotidiano de la planta.
+            <h2 class="titulo2">QUIENES<span class="color-acento"> SOMOS</span></h2>
+                <p >Nos exhibimos como una empresa con trayectoria siendo proveedores del estado uruguayo. <span class="bold">Brindamos nuestros servicios a proyectos de la Industria y nos caracterizamos por trabajar las 24 horas</span> del día para satisfacer las demandas específicas de nuestros clientes, sin interferir en el funcionamiento cotidiano de la planta. Los principios por los que se rige toda nuestra actividad son: Responsabilidad, Compromiso, Puntualidad, Seguridad, Innovación, Honestidad, Respeto y Valoración de nuestro personal y clientes.
                 </p>
-                
-            <img src="media/LogoSidi.png" alt="">
         </div>
-
-        <!-- (Carrousel Photos) -->
-
     </section>
-
     <!-- Section Servicios -->
     <section id="servicios">
         <div class="container container-servicios">
@@ -99,29 +107,27 @@
                 <h3>Montajes</h3>
                 <p>Montaje de cintas transportadoras. <br>Montaje y fabricacion de estructuras.</p>
             </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z"/><path d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z"/></svg>
+                <h3>Reparación</h3>
+                <p>Reparación de fugas de fluidos en operacion (hidrocarburos, agua, gas, químicos, vapor de alta presión, entre otros)</p>
+            </article>
         </div>
     </section>
 
     <!-- Section Integrantes -->
    
-        <section id="integrantes portafolio integrantes" class="portfolio section">
+        <section id="integrantes" class="portfolio section">
             <div class="container">
-                <h2>NUESTROS<span class="color-acento"> TRABAJOS</span></h2>
+                <h2 class="titulo2">NUESTROS<span class="color-acento"> TRABAJOS</span></h2>
+                <iframe width="1060" height="615" src="https://www.youtube.com/embed/6Zz62-wbNMA?si=FzNcSPzauLaSzTMr?controls=0?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <a href="#trabajo-1" class="portfolio-card">
                     <img src="media/1.jpg" alt="Trabajo 1">
                     <aside class="portfolio-card-info">
                         <div>
-                            <h3>Encriptación Caesar</h3>
-                            <p>Este proyecto consiste en encriptar un texto en  cifrado César con el lenguaje Python.</p>
-                        </div>
-                    </aside>
-                </a>
-                <a href="#trabajo-1" class="portfolio-card">
-                    <img src="media/1.jpg" alt="Trabajo 1">
-                    <aside class="portfolio-card-info">
-                        <div>
-                            <h3>Encriptación Caesar</h3>
-                            <p>Este proyecto consiste en encriptar un texto en  cifrado César con el lenguaje Python.</p>
+                            <h3>Fuga de vapor en Lumin de Tacuarembo, Uruguay.
+                            </h3>
+                            <p>Presión 6 kg/cm2. Temperatura 180°. Bonete y brida de 6”. Se colocó alambre, se perforó la brida y se inyectó quedando sin fuga.</p>
                         </div>
                     </aside>
                 </a>
@@ -129,35 +135,49 @@
                     <img src="media/2.jpg" alt="Trabajo 1">
                     <aside class="portfolio-card-info">
                         <div>
-                            <h3>Encriptación Caesar</h3>
-                            <p>Este proyecto consiste en encriptar un texto en  cifrado César con el lenguaje Python.</p>
+                            <h3>Fuga de vapor en Lumin de Tacuarembo, Uruguay.
+                            </h3>
+                            <p>Presión 6 kg/cm2. Temperatura 180°. Bonete y brida de 6”. Se colocó alambre, se perforó la brida y se inyectó quedando sin fuga.</p>
                         </div>
                     </aside>
                 </a>
                 <a href="#trabajo-1" class="portfolio-card">
-                    <img src="media/1.jpg" alt="Trabajo 1">
+                    <img src="media/3.jpg" alt="Trabajo 1">
                     <aside class="portfolio-card-info">
                         <div>
-                            <h3>Encriptación Caesar</h3>
-                            <p>Este proyecto consiste en encriptar un texto en  cifrado César con el lenguaje Python.</p>
+                            <h3>Fuga de vapor en Lumin de Tacuarembo, Uruguay.
+                            </h3>
+                            <p>Presión 6 kg/cm2. Temperatura 180°. Bonete y brida de 6”. Se colocó alambre, se perforó la brida y se inyectó quedando sin fuga.</p>
                         </div>
                     </aside>
                 </a>
                 <a href="#trabajo-1" class="portfolio-card">
-                    <img src="media/1.jpg" alt="Trabajo 1">
+                    <img src="media/4.jpg" alt="Trabajo 1">
                     <aside class="portfolio-card-info">
                         <div>
-                            <h3>Encriptación Caesar</h3>
-                            <p>Este proyecto consiste en encriptar un texto en  cifrado César con el lenguaje Python.</p>
+                            <h3>Fuga de vapor en Lumin de Tacuarembo, Uruguay.
+                            </h3>
+                            <p>Presión 6 kg/cm2. Temperatura 180°. Bonete y brida de 6”. Se colocó alambre, se perforó la brida y se inyectó quedando sin fuga.</p>
                         </div>
                     </aside>
                 </a>
                 <a href="#trabajo-1" class="portfolio-card">
-                    <img src="media/1.jpg" alt="Trabajo 1">
+                    <img src="media/5.jpg" alt="Trabajo 1">
                     <aside class="portfolio-card-info">
                         <div>
-                            <h3>Encriptación Caesar</h3>
-                            <p>Este proyecto consiste en encriptar un texto en  cifrado César con el lenguaje Python.</p>
+                            <h3>Fuga de vapor en Lumin de Tacuarembo, Uruguay.
+                            </h3>
+                            <p>Presión 6 kg/cm2. Temperatura 180°. Bonete y brida de 6”. Se colocó alambre, se perforó la brida y se inyectó quedando sin fuga.</p>
+                        </div>
+                    </aside>
+                </a>
+                <a href="#trabajo-1" class="portfolio-card">
+                    <img src="media/2.jpg" alt="Trabajo 1">
+                    <aside class="portfolio-card-info">
+                        <div>
+                            <h3>Fuga de vapor en Lumin de Tacuarembo, Uruguay.
+                            </h3>
+                            <p>Presión 6 kg/cm2. Temperatura 180°. Bonete y brida de 6”. Se colocó alambre, se perforó la brida y se inyectó quedando sin fuga.</p>
                         </div>
                     </aside>
                 </a>
@@ -172,39 +192,39 @@
     <section id="clientes">
         <div class="container-clientes">
             <div class="container">
-                <h1 class="tittle-clientes">NUESTROS<span class="color-acento"> CLIENTES!</span></h1>
+                <h2 class="tittle-clientes">NUESTROS<span class="color-acento"> CLIENTES</span></h1>
             <p class="letras-clientes">Tenemos el agrado de haber colaborado con prestigiosas empresas tales como:</p>
                     <div class="card-testimonios">
                         <div class="letras">
                             <img class="img-cliente" src="media/lumin.jpeg" alt="">
-                            <h2 class="tittle-testimonios">LUMIN</h2>
+                            <h3 class="tittle-testimonios">LUMIN</h3>
                             <p class="letras-testimonios">LUMIN empresa líder en forestación y productos forestales de Uruguay.</p>
                         </div>
                     </div>
                     <div class="card-testimonios">
                         <img class="img-cliente" src="media/ancap.jpeg" alt="">
-                        <h2 class="tittle-testimonios">ANCAP</h2>
+                        <h3 class="tittle-testimonios">ANCAP</h3>
                         <p class="letras-testimonios">Administración Nacional de Combustibles, Alcohol y Pórtland.</p>
                     </div>
                     <div class="card-testimonios">
                         <img class="img-cliente" src="media/atucha.jpg" alt="">
-                        <h2 class="tittle-testimonios">ATUCHA</h2>
+                        <h3 class="tittle-testimonios">ATUCHA</h3>
                         <p class="letras-testimonios">El Complejo Nuclear Atucha es un centro argentino donde funcionan las centrales nucleares Atucha I y II</p>
                     </div>
 
                     <div class="card-testimonios">
                         <img class="img-cliente" src="media/carguill.jpg" alt="">
-                        <h2 class="tittle-testimonios">CARGILL</h2>
+                        <h3 class="tittle-testimonios">CARGILL</h3>
                         <p class="letras-testimonios">Cargill es una de las principales empresas agroindustriales, y se dedica principalmente a la producción y exportación de soja, maíz y trigo.</p>
                     </div>
                     <div class="card-testimonios">
                         <img class="img-cliente" src="media/upm.jpeg" alt="">
-                        <h2 class="tittle-testimonios">UPM</h2>
+                        <h3 class="tittle-testimonios">UPM</h3>
                         <p class="letras-testimonios">UPM produce y distribuye celulosa a distintas plantas industriales en el mercado nacional e internacional.</p>
                     </div>
                     <div class="card-testimonios">
                         <img class="img-cliente" src="media/promaiz.png" alt="">
-                        <h2 class="tittle-testimonios">PROMAIZ</h2>
+                        <h3 class="tittle-testimonios">PROMAIZ</h3>
                         <p class="letras-testimonios">PROMAIZ es un emprendimiento conjunto de BUNGE y ACEITERA GENERAL DEHEZA, cuya actividad principal es la Producción,</p>
                     </div>
             </div>
@@ -215,7 +235,7 @@
     <!-- Section Contacto -->
     <section id="section-contacto">
         <div class="contact-form">
-            <h2>ENVIANOS UN<span class="color-acento"> CORREO!</span></h2>
+            <h2>ENVIANOS UN<span class="color-acento"> CORREO</span></h2>
             <form action="enviar.php" method="POST">
                 <div class="form-group">
                     <label for="names">Nombre</label>
@@ -268,9 +288,12 @@
 
     <!-- Include PHP -->
     <?php
-include("enviar.php")
-?>
+    include("enviar.php")
+    ?>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bd1ac078c1.js" crossorigin="anonymous"></script>
+    
     <!-- Scripts JS -->
     <script src="https://kit.fontawesome.com/cc962178ff.js" crossorigin="anonymous"></script>
     <script defer src="carrousel.js"></script>
