@@ -379,14 +379,12 @@ a {
     
 }
 
-.container-servicios{
-    grid-template-columns: repeat(4,22%);
-}
+
 
 .container-servicios h2 {
     color: var(--blanco);
     text-align: center;
-    grid-column: span 4;
+    grid-column: span 3;
 }
 .container-servicios p{
     grid-column: span 3;
@@ -395,7 +393,7 @@ a {
     margin: 1rem auto;
     padding: 1rem;
     text-align: center;
-    grid-column: span 2;
+    grid-column: span 1;
 }
 .service-card svg{
     fill: var(--color-primario);
@@ -442,7 +440,7 @@ iframe{
 }
 .portfolio-card img{
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
 }
 .portfolio-card-info{
@@ -739,7 +737,7 @@ form .form-control {
     }
 
     .navbar a {
-        color: #6C91A1;
+        color: var(--color-primario);
         font-size: 15px;
     }
 
@@ -1059,12 +1057,7 @@ form .form-control {
     }
 
     /* CLIENTES */
-    .container-clientes {
-        height: 100vh;
-        width: 100%;
-        clip-path: none;
-        display: flex;
-    }
+
 
     .div1 {
         display: flex;
@@ -1374,10 +1367,12 @@ form .form-control {
     }
 
     /* CLIENTES */
+       /* 
     .container-clientes {
         height: 90vh;
         width: 100%;
     }
+    */
 
     .div1 {
         display: flex;
@@ -1468,7 +1463,10 @@ form .form-control {
 }
 
 @media (max-width: 479px) {
-
+.bold{
+    font-weight: 600;
+    font-size: 22px;
+}
     /* MENU */
     .headerimg {
         height: 90vh;
@@ -1488,7 +1486,7 @@ form .form-control {
     .nav__menu {
         flex-direction: column;
         align-items: center;
-        background-color: #3f485d;
+        background-color: var(--negro);
         position: fixed;
         top: 50px;
         width: 100%;
@@ -1588,7 +1586,7 @@ form .form-control {
 
     #servicios H2 {
         color: rgb(255, 255, 255);
-        font-size: 23px;
+        font-size: 50px;
         margin: 5px;
         text-align: center;
     }
@@ -1631,11 +1629,6 @@ form .form-control {
     }
 
     /* CLIENTES */
-    .container-clientes {
-        height: 90vh;
-        width: 100%;
-    }
-
     .div1 {
         display: flex;
         width: 100%;
@@ -1647,7 +1640,8 @@ form .form-control {
     }
 
     .tittle-clientes {
-        font-size: 23px;
+        font-size: 50px;
+        color: var(--blanco);
     }
 
     .letras-clientes {
@@ -1696,9 +1690,7 @@ form .form-control {
         margin-bottom: 100px;
     }
 
-    .contact-form h2 {
-        font-size: 23px;
-    }
+
 
     /* WHATSAPP ICON */
     .float {
@@ -1726,4 +1718,16 @@ form .form-control {
     .footer__input {
         flex: 1;
     }
+
+    /*GRID*/
+    .service-card{
+        grid-column: span 3;
+    }
+    .portfolio-card{
+        grid-column: span 3;
+    }
+    .urgencias-item{
+        grid-column: span 3;
+    }
+
 }
