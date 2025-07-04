@@ -120,10 +120,26 @@ html {
     margin-top: 16px;
 }
 
+.header__container{
+    display: flex;
+    flex-direction: column;
+}
+
 /* NAVEGADOR */
+ .nav__container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.fixed {
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 .navbar {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     padding: 15px 0;
@@ -137,6 +153,13 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
     z-index: 10000;
+}
+
+.nav_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: none;
 }
 
 .navbar>* {
@@ -207,13 +230,22 @@ html {
 
 /* HEADER */
 
+.social-content{
+    width: 100%;
+    color: white;
+    box-shadow: none;
+    padding: 0;
+}
+.social-text{
+    font-size: 12px;
+}
 
 .headerimg {
     height: 100vh;
     width: 100%;
     background: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), fixed url(media/Grupo\ SIDI\ -\ FINAL_Portada\ Web.jpg);
+            rgba(0, 0, 0, 0.5)), fixed url(media/Grupo\ SIDI\ -\ FINAL__Portada\ Web.jpg);
     background-size: cover;
     
 }
@@ -252,12 +284,30 @@ html {
     font-size: 30px;
     text-align: center;
 }
+
+.sub-title{
+    font-size: 40px;
+    color: #00A99D;
+    font-family: 'Saira', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .bold{
     font-weight: 600;
     font-size: 38px;
     color: #00A99D;
     font-family: 'Saira', sans-serif;
 }
+
+.span-about{
+    font-weight: 600;
+    color: #00A99D;
+    font-family: 'Saira', sans-serif;
+}
+
 .img-container img {
     border-radius: 5px;
     filter: brightness(1.1);
@@ -1206,7 +1256,7 @@ form .form-control {
         width: 100%;
         background: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(media/Grupo\ SIDI\ -\ FINAL_Portada\ Web.jpg);
+                rgba(0, 0, 0, 0.5)), url(media/Grupo\ SIDI\ -\ FINAL__Portada\ Web.jpg);
         background-size: cover;
         clip-path: none;  
     }
@@ -1488,7 +1538,7 @@ form .form-control {
         align-items: center;
         background-color: var(--negro);
         position: fixed;
-        top: 50px;
+        top: 77px;
         width: 100%;
         padding: 20px 0;
 

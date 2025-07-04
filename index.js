@@ -23,12 +23,18 @@ navLinks.forEach((link) => {
 
 window.addEventListener("scroll", function() {
   var navbar = document.querySelector(".navbar");
+  var socialBar = document.querySelector(".social-content");
+
   if (window.pageYOffset > 100) {
     navbar.classList.add("fixed");
     navbar.style.visibility = "visible";
+    socialBar.classList.add("fixed");
+    /* socialBar.style.visibility = "visible"; */
   } else {
     navbar.classList.remove("fixed");
     navbar.style.visibility = "hidden";
+    /* socialBar.classList.remove("fixed");
+    socialBar.style.visibility = "hidden"; */
   }
 });
  
