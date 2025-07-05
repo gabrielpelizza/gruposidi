@@ -562,7 +562,9 @@ iframe{
 }
 
 /* CLIENTES */
-
+.container-clientes .container{
+    padding-bottom: 40px;
+}
 
 
 
@@ -609,7 +611,21 @@ iframe{
     margin-bottom: 10px;
 }
 
-
+.alianza{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.alianza h2{
+    text-transform: uppercase;
+}
+.flgs-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 10px;
+}
 /* CONTACTO */
 /* (Mensaje enviado exitosamente) */
 .mensaje-exito {
