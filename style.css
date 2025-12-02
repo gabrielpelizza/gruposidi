@@ -626,6 +626,23 @@ iframe{
     margin-bottom: 40px;
     gap: 10px;
 }
+
+
+.trabaja-con-nosotros .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trabaja-con-nosotros .container h2{
+    color: var(--negro-2);
+}
+.trabaja-con-nosotros .container p{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 /* CONTACTO */
 /* (Mensaje enviado exitosamente) */
 .mensaje-exito {
@@ -928,7 +945,7 @@ form .form-control {
     }
 
     .tittle-testimonios {
-        color: #3f485d;
+        color: var(--blanco);
         font-size: 14px;
         margin: 0px;
     }
@@ -1163,7 +1180,7 @@ form .form-control {
     }
 
     .tittle-testimonios {
-        color: #3f485d;
+        color: var(--blanco);
         font-size: 15px;
         margin: 0px;
     }
@@ -1480,7 +1497,7 @@ form .form-control {
     }
 
     .tittle-testimonios {
-        color: #3f485d;
+        color: var(--blanco);
         font-size: 14px;
         margin: 0px;
     }
@@ -1735,7 +1752,7 @@ form .form-control {
     }
 
     .tittle-testimonios {
-        color: #3f485d;
+        color: var(--blanco);
         font-size: 10px;
         margin: 0px;
     }
