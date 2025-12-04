@@ -512,7 +512,7 @@
     </section>
 
     <section class="trabaja-con-nosotros" id="trabaja-con-nosotros">
-        <div class="container">
+        <div class="trabaja-con-nosotros-container">
             <h2>TRABAJA CON<span class="color-acento"> NOSOTROS</span></h2>
             <p class="description-trabaja">Sé parte de nuestro equipo, preséntate y envíanos tu Curriculum Vitae al mail rrhhgsidi@gmail.com</p>
            
@@ -566,7 +566,7 @@
                     <label for="message">Mensaje</label>
                     <input type="text" id="message" name="mensaje" class="form-control" required />
                 </div>
-
+                <input type="hidden" name="_captcha" value="false">
                 <button type="submit" class="button-contact">ENVIAR</button>
                 <p id="msg"></p>
             </form>
@@ -635,7 +635,7 @@
             const msg = document.getElementById("msg");
 
             const data = new FormData(form);
-            const url = "https://formsubmit.co/gruposidiuy@gmail.com"; // reemplazá tu correo
+            const url = "https://formsubmit.co/ajax/gruposidiuy@gmail.com";
 
             msg.textContent = "Enviando...";
 
